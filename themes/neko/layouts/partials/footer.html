@@ -1,0 +1,7 @@
+<footer>
+  <div style="display:flex">
+    {{- range $index, $key := .Site.Params.Social -}}
+    <a class="soc" href="{{ $key.url }}">{{ $key.name }}</a>&nbsp;/&nbsp;
+    {{- end -}}
+  </div>
+</footer>

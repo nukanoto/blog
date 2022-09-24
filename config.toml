@@ -1,0 +1,31 @@
+baseURL = "https://blog.nukanoto.net/"
+languageCode = "ja-JP"
+title = "nulog"
+theme = "neko"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  mode = "auto"
+  useCDN = false
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/nukanoto/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/nukanoto/"
+
+[[menu.main]]
+name = "About"
+url = "https://nukanoto.net/"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 2
